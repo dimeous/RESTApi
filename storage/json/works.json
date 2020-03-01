@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Paramount"
+  },
+  {
+    "id": 2,
+    "name": "Warner Bros."
+  },
+  {
+    "id": 3,
+    "name": "Universal"
+  },
+  {
+    "id": 4,
+    "name": "Sony Pictures"
+  },
+  {
+    "id": 5,
+    "name": "20th century fox"
+  }
+]

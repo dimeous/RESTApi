@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Role of Dominick Cobb",
+    "min_experience_years": 6,
+    "works": [
+      4
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Role of Tyler Durden",
+    "experience_years": 9,
+    "works": [
+      3,5
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Role of Jack the Sparrow",
+    "experience_years": 13,
+    "works": [
+      1
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Role of agent J",
+    "experience_years": 9,
+    "works": [
+      1,3,4
+    ]
+  }
+]
