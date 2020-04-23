@@ -16,6 +16,4 @@ Route::get('/', function () {
         return view('welcome');
 });
 
-Route::get('resumes', 'ResumesController@index');
-Route::get('resumes/{resume}', 'ResumesController@show');
-Route::get('vacancies', 'VacanciesController@index');
+

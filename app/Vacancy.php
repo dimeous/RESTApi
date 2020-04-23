@@ -10,7 +10,6 @@ class Vacancy extends Collection
         $path = storage_path() . "\\json\\vacancies.json";
         $json = json_decode(file_get_contents($path), true);
         $collection=collect($json);
-        $keyed = $collection->keyBy('id');
-        $this->items = $this->getArrayableItems($keyed);
+        $this->items = $this->getArrayableItems($collection->toArray());
     }
 }

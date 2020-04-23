@@ -17,4 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-//Route::get('resumes/{resume}', 'ResumesController@show');
+Route::get('resumes', 'ResumesController@index');
+Route::get('resumes/{resume}', 'ResumesController@show');
+Route::get('vacancies', 'VacanciesController@index');
+Route::get('vacancies/{vacancy}', 'VacanciesController@show');

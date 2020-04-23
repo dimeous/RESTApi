@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Role of Dominick Cobb",
-    "min_experience_years": 6,
+    "experience_years": 6,
     "works": [
       4
     ]
